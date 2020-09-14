@@ -1,0 +1,14 @@
+<!DOCTYPE catalog
+        PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+        "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <system systemId="file:/EDIFACT-Common/IBM_EDI_Format.dfdl.xsd"
+            uri="classpath:EDIFACT-Common/IBM_EDI_Format.dfdl.xsd"/>
+    <public publicId="http://www.ibm.com/dfdl/EDI/Format"
+            uri="classpath:EDIFACT-Common/IBM_EDI_Format.dfdl.xsd"/>
+
+    <system systemId="file:/EDIFACT-Common/EDIFACT-Service-Segments-4.1.dfdl.xsd"
+            uri="classpath:EDIFACT-Common/EDIFACT-Service-Segments-4.1.dfdl.xsd"/>
+    <public publicId="http://www.ibm.com/dfdl/edi/un/service/4.1"
+            uri="classpath:EDIFACT-Common/EDIFACT-Service-Segments-4.1.dfdl.xsd"/>
+</catalog>
